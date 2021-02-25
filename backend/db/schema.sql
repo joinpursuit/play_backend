@@ -27,7 +27,7 @@ VALUES
 ('Corey'),
 ('Jon'), 
 ('Jhenya'),
-('Celine');
+('Sparky');
 
 INSERT INTO cars(brand, model, year, owner_id)
 VALUES
