@@ -11,6 +11,16 @@ This repo acts as a play backend for you to familiarize yourself with different 
 5. run `psql -f db/schema.sql`
 6. run `node app.js`
 
+Users have the following properties:
+ * id INTEGER (don't include this on post requests)
+ * username TEXT
+
+ Cars have the following properties: 
+*  id INTEGER (don't include this on post requests)
+* brand TEX 
+* model TEXT
+* year INTEGER
+* owner_id points to a users id. 
 
 All routes can need to start with `http://localhost:3000`
 
