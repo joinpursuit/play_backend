@@ -22,7 +22,7 @@ Users have the following properties:
 * year INTEGER
 * owner_id points to a users id. 
 
-All routes can need to start with `http://localhost:3000`
+All routes need to start with `http://localhost:3000`
 
 * /cars - get all cars GET
 
